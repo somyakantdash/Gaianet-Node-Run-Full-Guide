@@ -14,6 +14,12 @@ brew install git
 
 ## Need Some Hardware Requirements [Check Out](system-requirements.md)
 
+## Make Account First
+
+Go:- https://tinyurl.com/ycyaxm7w
+
+Refer Code:- RpwysF
+
 1️⃣ Dependencies for WINDOWS & LINUX & VPS
 ```
 sudo apt update
@@ -59,7 +65,8 @@ PRESS CTRL+A+D (to run ur miner continuously)
 gaianet info
 ```
 
-5️⃣ Check Your Points [Full Details](register.md)
+5️⃣ Check Your Points 
+
 Go:- https://tinyurl.com/ycyaxm7w
 
 Refer Code:- RpwysF
