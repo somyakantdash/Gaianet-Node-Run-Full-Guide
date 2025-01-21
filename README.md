@@ -1,6 +1,6 @@
 # Gaianet-Node-Run-Full-Guide
 
-## Need Some Requirements for PC Users
+## Need Some Software Requirements for PC Users
 
 1. For Windows Install WSL - https://learn.microsoft.com/en-us/windows/wsl/install#install-wsl-command
 
@@ -11,6 +11,8 @@ run this command to install Git.
 ```
 brew install git
 ```
+
+## Need Some Hardware Requirements [Check Out](system-requirements.md)
 
 1️⃣ Dependencies for WINDOWS & LINUX & VPS
 ```
@@ -57,7 +59,7 @@ PRESS CTRL+A+D (to run ur miner continuously)
 gaianet info
 ```
 
-5️⃣ check Your Points
+5️⃣ Check Your Points [Full Details](register.md)
 Go:- https://tinyurl.com/ycyaxm7w
 
 Refer Code:- RpwysF
