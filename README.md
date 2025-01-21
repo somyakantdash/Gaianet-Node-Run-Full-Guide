@@ -60,6 +60,17 @@ For VPS Only
 PRESS CTRL+A+D (to run ur miner continuously)
 ```
 
+### Solution For PID
+Check Your PID List
+```
+ps
+```
+
+Delete Your PID
+```
+kill 69 [Example - if showing 69]
+```
+
 4️⃣ Check Your Node ID & Device ID
 ```
 gaianet info
