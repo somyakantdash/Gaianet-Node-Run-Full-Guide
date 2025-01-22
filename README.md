@@ -44,7 +44,7 @@ gaianet init --config https://raw.githubusercontent.com/GaiaNet-AI/node-configs/
 
 For VPS Only
 ```
-screen -S t3rn
+screen -S gaia
 ```
 
 3️⃣ Start Node & Stop Node
