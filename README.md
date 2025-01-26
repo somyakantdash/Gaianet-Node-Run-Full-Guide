@@ -14,23 +14,6 @@ brew install git
 
 ## Need Some Hardware Requirements [Check Out](system-requirements.md)
 
-## Make Account First
-
-Go:- https://tinyurl.com/ycyaxm7w
-
-Refer Code:- RpwysF
-
-1️⃣ Dependencies for WINDOWS & LINUX & VPS
-```
-sudo apt update
-sudo apt upgrade -y
-```
-
-For VPS Only
-```
-apt install screen -y
-```
-
 ## Need to Free Your 8080 Port
 
 Identify the Process Using Port 8080
@@ -50,9 +33,26 @@ Kill All Processes Using Port 8080
 sudo fuser -k 8080/tcp
 ```
 
-## Delete Your Old Files
+## Delete Your Old Gaianet Files
 ```
 rm -rf gaianet
+```
+
+## Make Account First
+
+Go:- https://tinyurl.com/ycyaxm7w
+
+Refer Code:- RpwysF
+
+1️⃣ Dependencies for WINDOWS & LINUX & VPS
+```
+sudo apt update
+sudo apt upgrade -y
+```
+
+For VPS Only
+```
+apt install screen -y
 ```
 
 2️⃣ Download Some Files
