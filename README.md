@@ -31,6 +31,25 @@ For VPS Only
 apt install screen -y
 ```
 
+## Need to Free Your 8080 Port
+
+Identify the Process Using Port 8080
+```
+sudo ss -tulpn | grep 8080
+```
+
+Example - ``` LISTEN  0  128  0.0.0.0:8080  0.0.0.0:*  users:(("nginx",pid=1234,fd=6)) ```
+
+Terminate the Process by PID
+```
+sudo kill -9 1234
+```
+
+Kill All Processes Using Port 8080
+```
+sudo fuser -k 8080/tcp
+```
+
 2️⃣ Download Some Files
 ```
 curl -sSfL 'https://github.com/GaiaNet-AI/gaianet-node/releases/latest/download/install.sh' | bash
@@ -40,6 +59,9 @@ source /root/.bashrc
 ```
 ```
 gaianet init --config https://raw.githubusercontent.com/GaiaNet-AI/node-configs/refs/heads/main/llama-3.2-3b-instruct/config.json
+```
+```
+gaianet init --config https://raw.githubusercontent.com/GaiaNet-AI/node-configs/main/qwen2-0.5b-instruct/config.json
 ```
 
 For VPS Only
