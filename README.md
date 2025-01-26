@@ -50,6 +50,11 @@ Kill All Processes Using Port 8080
 sudo fuser -k 8080/tcp
 ```
 
+## Delete Your Old Files
+```
+rm -rf gaianet
+```
+
 2️⃣ Download Some Files
 ```
 curl -sSfL 'https://github.com/GaiaNet-AI/gaianet-node/releases/latest/download/install.sh' | bash
